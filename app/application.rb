@@ -6,13 +6,12 @@ class Application
 
 ###the test suite obviously believes us to be takling to a dog or someone name "Morning"...otherwise this is improperly capitaized and the test is dumb./rant
     if time.hour < 12
-      resp.write "Good morning"
-
+      resp.write "Good Morning"
     elsif time.hour > 12
-       resp.write "Good afternoon"
+       resp.write "Good Afternoon"
 
       elsif time.hour > 18
-        resp.write "Good evening"
+        resp.write "Good Evening"
       end
         resp.finish
   end
